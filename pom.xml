@@ -74,8 +74,11 @@
         <spring-cloud-starter-openfeign.version>3.0.2</spring-cloud-starter-openfeign.version>
         <jjwt.version>0.9.1</jjwt.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
+        <cloudinary-http44.version>1.32.2</cloudinary-http44.version>
+        <cloudinary-core.version>1.32.2</cloudinary-core.version>
         <org.springframework.kafka>2.8.2</org.springframework.kafka>
         <org.springframework.spring-messaging>5.3.15</org.springframework.spring-messaging>
+
 
         <!-- Liquibase properties -->
         <liquibase.version>3.8.2</liquibase.version>
@@ -136,6 +139,16 @@
                 <groupId>org.json</groupId>
                 <artifactId>json</artifactId>
                 <version>${org-json.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cloudinary</groupId>
+                <artifactId>cloudinary-core</artifactId>
+                <version>${cloudinary-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cloudinary</groupId>
+                <artifactId>cloudinary-http44</artifactId>
+                <version>${cloudinary-http44.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.validation</groupId>
