@@ -74,7 +74,6 @@
         <swagger-annotations.version>2.1.12</swagger-annotations.version>
         <springdoc-openapi-ui.version>1.6.3</springdoc-openapi-ui.version>
         <spring-cloud-starter-openfeign.version>3.0.2</spring-cloud-starter-openfeign.version>
-        <jjwt.version>0.9.1</jjwt.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <cloudinary-http44.version>1.32.2</cloudinary-http44.version>
         <cloudinary-core.version>1.32.2</cloudinary-core.version>
@@ -117,11 +116,6 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-jwt</artifactId>
-                <version>${spring.security.jwt.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mapstruct</groupId>
@@ -188,11 +182,6 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-openfeign</artifactId>
                 <version>${spring-cloud-starter-openfeign.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt</artifactId>
-                <version>${jjwt.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.xml.bind</groupId>
