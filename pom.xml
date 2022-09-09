@@ -45,16 +45,18 @@
         <flatten-maven-plugin.version>1.2.7</flatten-maven-plugin.version>
         <jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
         <sonar-maven-plugin.version>3.8.0.2131</sonar-maven-plugin.version>
-        <spring-boot-plugin.version>2.5.5</spring-boot-plugin.version>
+        <spring-boot-plugin.version>2.6.5</spring-boot-plugin.version>
         <docker-maven-plugin.version>0.34.1</docker-maven-plugin.version>
 
         <!-- Library dependencies properties-->
         <library-core.version>1.0.0-SNAPSHOT</library-core.version>
 
         <!-- Spring Boot properties -->
-        <spring-boot.version>2.5.5</spring-boot.version>
-        <spring-cloud-dependencies.version>2020.0.2</spring-cloud-dependencies.version>
+        <spring-boot.version>2.6.5</spring-boot.version>
+        <spring-cloud-dependencies.version>2021.0.1</spring-cloud-dependencies.version>
         <spring-boot-admin.version>2.3.1</spring-boot-admin.version>
+        <spring.security.oauth2.version>2.6.2.RELEASE</spring.security.oauth2.version>
+        <spring.security.jwt.version>1.1.1.RELEASE</spring.security.jwt.version>
 
         <!-- External libraries properties -->
         <mapstruct.version>1.4.1.Final</mapstruct.version>
@@ -96,6 +98,16 @@
                 <artifactId>library-core</artifactId>
                 <version>${library-core.version}</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security.oauth</groupId>
+                <artifactId>spring-security-oauth2</artifactId>
+                <version>${spring.security.oauth2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-jwt</artifactId>
+                <version>${spring.security.jwt.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
