@@ -4,8 +4,8 @@
     <servers>
         <server>
             <id>nexus</id>
-            <username>student</username>
-            <password>student</password>
+            <username>admin</username>
+            <password>skillbox</password>
         </server>
     </servers>
 
@@ -14,7 +14,7 @@
             <!--This sends everything else to /public -->
             <id>nexus</id>
             <mirrorOf>*</mirrorOf>
-            <url>http://130.61.44.151:8081/repository/maven-public/</url>
+            <url>http://82.202.214.42:8081/repository/maven-public/</url>
         </mirror>
     </mirrors>
     <profiles>

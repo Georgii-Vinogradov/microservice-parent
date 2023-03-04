@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.skillbox.diplom.group25</groupId>
+    <groupId>ru.skillbox.diplom.group35</groupId>
     <artifactId>microservice-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -14,7 +14,7 @@
     <description>microservice parent</description>
 
     <organization>
-        <name>Group25-Skillbox</name>
+        <name>Group35-Skillbox</name>
     </organization>
 
     <developers>
@@ -52,7 +52,7 @@
         <library-core.version>1.0.0-SNAPSHOT</library-core.version>
 
         <!-- Spring Boot properties -->
-        <spring-boot.version>2.6.5</spring-boot.version>
+        <spring-boot.version>2.7.8</spring-boot.version>
         <spring-cloud-dependencies.version>2021.0.1</spring-cloud-dependencies.version>
         <spring-boot-admin.version>2.3.1</spring-boot-admin.version>
         <spring.security.oauth2.version>2.6.2.RELEASE</spring.security.oauth2.version>
@@ -414,12 +414,12 @@
         <repository>
             <id>nexus</id>
             <name>Releases</name>
-            <url>http://130.61.44.151:8081/repository/maven-releases</url>
+            <url>http://82.202.214.42:8081/repository/maven-releases</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Snapshot</name>
-            <url>http://130.61.44.151:8081/repository/maven-snapshots</url>
+            <url>http://82.202.214.42:8081/repository/maven-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
