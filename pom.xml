@@ -95,7 +95,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>ru.skillbox.diplom.group25</groupId>
+                <groupId>ru.skillbox.diplom.group35</groupId>
                 <artifactId>library-core</artifactId>
                 <version>${library-core.version}</version>
                 <scope>provided</scope>
