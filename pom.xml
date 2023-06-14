@@ -64,6 +64,7 @@
         <hibernate.version>5.6.14.Final</hibernate.version>
         <hibernate-types.version>2.21.1</hibernate-types.version>
         <postgresql.version>42.2.19</postgresql.version>
+        <org-quartz-scheduler.version>2.3.2</org-quartz-scheduler.version>
         <jakarta.xml.bind.version>2.3.3</jakarta.xml.bind.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-logging.version>1.2</commons-logging.version>
@@ -158,6 +159,11 @@
                 <version>${cloudinary-http44.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.quartz-scheduler</groupId>
+                <artifactId>quartz</artifactId>
+                <version>${org-quartz-scheduler.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>${javax.validation.version}</version>
@@ -228,6 +234,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
